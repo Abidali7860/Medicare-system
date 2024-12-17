@@ -3,7 +3,7 @@ import { MdDone } from "react-icons/md";
 import { FaAngleLeft } from "react-icons/fa";
 import { motion } from "framer-motion";
 const FeedBack = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   return (
     <>
       {show ? (
